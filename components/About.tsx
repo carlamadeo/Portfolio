@@ -30,7 +30,7 @@ const About = (props: Props) => {
             </p>
             <br />
             <p className='text-xs lg:text-lg leading-7'>
-              I received my Master's in System Engineering from Universidad Tecnológica Nacional
+              I received my Master&apos;s in System Engineering from Universidad Tecnológica Nacional
               in 2018 and have always been passionate about the industry.
             </p>
             <br />

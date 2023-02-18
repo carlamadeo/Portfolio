@@ -50,7 +50,7 @@ const Resume = (props: Props) => {
 
             <h3 className='text-xs lg:text-lg font-semibold tracking-wide mt-8'>Systems Engineer</h3>
             <time className='text-xs lg:text-sm tracking-wide uppercase dark:text-gray-400'>Jul 2011 - Dec 2018</time>
-            <p className='mt-3'>Master's Degree from Universidad Tecnológica Nacional.</p>
+            <p className='mt-3'>Master&apos;s Degree from Universidad Tecnológica Nacional.</p>
 
           </div>
 
