@@ -25,7 +25,7 @@ const About = (props: Props) => {
 
           <div className="md:w-1/2 md:pr-12 pb-0 md:py-8 mb-6 lg:mb-10 md:mb-0 lg:pb-10">
             <p className='text-xs lg:text-lg leading-7 '>
-              Hi👋 <span className='font-bold text-gray-800'>I'm Carla Madeo!</span> I am a System Engineer and developer based in{' '}
+              Hi👋 <span className='font-bold text-gray-800'>I&apos;m Carla Madeo!</span> I am a System Engineer and developer based in{' '}
               <span className='font-bold text-gray-800'>Buenos Aires, Argentina</span>
             </p>
             <br />

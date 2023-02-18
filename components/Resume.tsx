@@ -9,7 +9,7 @@ const Resume = (props: Props) => {
       initial={{ opacity: 0 }}
       transition={{ duration: 1.5 }}
       whileInView={{ opacity: 1 }}>
-      <section className="text-xs lg:text-lg text-gray-600 body-font h-screen max-w-7xl px-10 justify-evenly mx-auto items-center">
+      <section className='text-xs lg:text-lg text-gray-600 body-font h-screen max-w-7xl px-10 justify-evenly mx-auto items-center'>
 
         <div className='relative pt-[7rem] text-center' >
           <h3 className='text-lg lg:text-2xl mx-auto text-tale-dark font-bold text-black'>
@@ -18,10 +18,10 @@ const Resume = (props: Props) => {
           </h3>
         </div>
 
-        <div className="container flex flex-wrap px-5 pt-[2rem] lg:pt-[4rem] mx-auto">
+        <div className='container flex flex-wrap px-5 pt-[2rem] lg:pt-[4rem] mx-auto'>
 
-          <div className="md:w-1/2 md:pr-12 pb-0 md:py-8 mb-6 lg:mb-10 md:mb-0 lg:pb-10">
-            <img className='w-10 mr-5 float-left' src='/card.svg' alt='card' width={40} />
+          <div className='md:w-1/2 md:pr-12 pb-0 md:py-8 mb-6 lg:mb-10 md:mb-0 lg:pb-10'>
+            <Image className='w-10 mr-5 float-left' src='/card.svg' alt='card' width={40} height={40} />
             <p className='text-xs lg:text-xl leading-7 text-center mt-2 font-bold uppercase text-gray-700 float-left'>Experience</p>
             <hr className='w-[12rem] h-0.5 mt-[2.8rem] lg:mt-[3.2rem] ml-2 mr-20 bg-gray-100 border-0 rounded' />
 
@@ -37,8 +37,8 @@ const Resume = (props: Props) => {
               providing my expertise and contributions to the project.</p>
           </div>
 
-          <div className="md:w-1/2 md:pr-12 pt-0 md:py-8">
-            <img className='w-10 mr-5 float-left' src='/cap.svg' alt='cap' width={40} />
+          <div className='md:w-1/2 md:pr-12 pt-0 md:py-8'>
+            <Image className='w-10 mr-5 float-left' src='/cap.svg' alt='cap' width={40} height={40} />
             <p className='text-xs lg:text-xl leading-7 text-center mt-2 font-bold uppercase text-gray-700 float-left'>Education</p>
             <hr className='w-[12rem] h-0.5 mt-[2.8rem] lg:mt-[3.2rem] ml-2 mr-20 bg-gray-100 border-0 rounded' />
 

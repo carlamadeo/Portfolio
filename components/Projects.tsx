@@ -24,7 +24,7 @@ const Projects = (props: Props) => {
           <div className='flex flex-wrap -mx-4 -mb-10 text-center'>
 
             <div className='w-screen sm:w-1/2 mb-10 px-4 transform transition duration-500 hover:scale-105 cursor-pointer'>
-              <a href='https://pi-breeds.vercel.app/' target='_blank'>
+              <a href='https://pi-breeds.vercel.app/' target='_blank' rel='noreferrer'>
                 <Image src={breeds} alt='breeds' className='object-cover object-center h-25 w-25 rounded-lg' />
                 <h2 className='overflow-hidden text-2xl text-gray-900 mt-6 mb-3 font-bold'>Breeds</h2>
                 <p className='leading-relaxed text-base'>Single Page Application (SPA) focused on dog breeds for a personal project during my time at the Bootcamp at SoyHenry.</p>
@@ -32,7 +32,7 @@ const Projects = (props: Props) => {
             </div>
 
             <div className='w-screen sm:w-1/2 mb-10 px-4 transform transition duration-500 hover:scale-105 cursor-pointer'>
-              <a href='https://www.youtube.com/watch?v=XF-85eYLBoc&ab_channel=SantiagoCalabr%C3%B3' target='_blank'>
+              <a href='https://www.youtube.com/watch?v=XF-85eYLBoc&ab_channel=SantiagoCalabr%C3%B3' target='_blank' rel='noreferrer'>
                 <Image src={playExpert} alt='breeds' className='object-cover object-center h-25 w-25 rounded-lg' />
                 <h2 className='text-2xl text-gray-900 mt-6 mb-3 font-bold'>Play Expert</h2>
                 <p className='leading-relaxed text-base'>A Personal Computing Hardware Marketplace developed as part of the group project at the SoyHenry Bootcamp.</p>
